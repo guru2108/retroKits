@@ -38,7 +38,7 @@ export default async function Hero() {
                         />
                     </div>
 
-                    <div className="overflow-hidden rounded-lg  shadow-lg">
+                    <div className="rounded-lg  shadow-lg">
                         <Image
                             src={urlFor(data.image2).url()}
                             alt="Great Photo"
