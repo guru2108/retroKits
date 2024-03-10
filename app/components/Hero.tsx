@@ -27,11 +27,10 @@ export default async function Hero() {
                 </div>
 
                 <div className="mb-12 flex w-full md:mb-16 lg:w-2/3">
-                    <div className="md:relative left-20 top-12 -ml-12 rounded-lg  shadow-lg md:left-16 md:top-16 lg:ml-0">
+                    <div className="md:relative left-20 top-12 ml-[5px] md:-ml-12 rounded-lg  shadow-lg md:left-16 md:top-16 lg:ml-0">
                         <Image
                             src={urlFor(data.image1).url()}
                             alt="Great Photo"
-                            className="h-full w-full object-cover object-center"
                             priority
                             width={500}
                             height={500}
