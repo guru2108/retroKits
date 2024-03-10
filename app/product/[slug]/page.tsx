@@ -77,11 +77,8 @@ export default async function ProductPge({
 
                         <div className="mb-4">
                             <div className="flex items-end gap-2">
-                                <span className="mb-0.5 text-red-500 line-through">
-                                    ${data.price + 15}
-                                </span>
                                 <span className="text-xl font-bold text-white md:text-2xl">
-                                    ${data.price}
+                                    {data.price}
                                 </span>
                             </div>
 
