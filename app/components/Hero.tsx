@@ -27,7 +27,7 @@ export default async function Hero() {
                 </div>
 
                 <div className="mb-12 flex w-full md:mb-16 lg:w-2/3">
-                    <div className="relative left-20 top-12 z-10 -ml-12 overflow-hidden rounded-lg  shadow-lg md:left-16 md:top-16 lg:ml-0">
+                    <div className="relative left-20 top-12 z-10 -ml-12 rounded-lg  shadow-lg md:left-16 md:top-16 lg:ml-0">
                         <Image
                             src={urlFor(data.image1).url()}
                             alt="Great Photo"
