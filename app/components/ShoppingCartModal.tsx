@@ -72,7 +72,7 @@ export default function ShoppingCartModal() {
                                                             <h3>
                                                                 {entry.name}
                                                             </h3>
-                                                            <p className="ml-4">
+                                                            <p className="ml-4 text-sm md:text-base">
                                                                 {entry.price} GBP
                                                             </p>
                                                         </div>
